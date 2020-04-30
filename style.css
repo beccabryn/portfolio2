@@ -135,6 +135,11 @@ body {
   line-height: 10px;
 }
 
+.row {
+  margin-right:0;
+  margin-left: 0;
+}
+
 #typing {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -159,6 +164,12 @@ body {
   }
   #header{
     z-index: 0;
+  }
+}
+
+@media screen and (max-height:510px){
+  #header #social{
+    display: none !important;
   }
 }
 
